@@ -7,10 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7F2066BF3B5AFCA361507711 /* Pods_bookEasy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9242BCC385BCDCA280E41785 /* Pods_bookEasy.framework */; };
 		842627C81E5D307C00FBD47E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842627C71E5D307C00FBD47E /* AppDelegate.swift */; };
 		842627CA1E5D307C00FBD47E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842627C91E5D307C00FBD47E /* ViewController.swift */; };
 		842627CF1E5D307C00FBD47E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 842627CE1E5D307C00FBD47E /* Assets.xcassets */; };
 		842627D21E5D307C00FBD47E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 842627D01E5D307C00FBD47E /* LaunchScreen.storyboard */; };
+		842627DB1E5D3C3300FBD47E /* ProjectDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842627D91E5D3C3300FBD47E /* ProjectDetailViewController.swift */; };
+		842627DC1E5D3C3300FBD47E /* ProjectDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842627DA1E5D3C3300FBD47E /* ProjectDetailViewController.xib */; };
+		842627E61E5D3D3F00FBD47E /* DescriptionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 842627E41E5D3D3F00FBD47E /* DescriptionTableViewCell.xib */; };
+		842627F41E5D55B100FBD47E /* sign-check-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 842627F31E5D55B100FBD47E /* sign-check-icon.png */; };
+		84B666101E5D5FB100941CFE /* propertyCover.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B6660F1E5D5FB100941CFE /* propertyCover.jpg */; };
+		84B666121E5D644400941CFE /* DescriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B666111E5D644400941CFE /* DescriptionTableViewCell.swift */; };
+		84B666191E5D6CA200941CFE /* ImagesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B666171E5D6CA200941CFE /* ImagesTableViewCell.swift */; };
+		84B6661A1E5D6CA200941CFE /* ImagesTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B666181E5D6CA200941CFE /* ImagesTableViewCell.xib */; };
+		84B6661C1E5D6CCE00941CFE /* mapview.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B6661B1E5D6CCE00941CFE /* mapview.png */; };
+		84B6661E1E5D733F00941CFE /* floorplan.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B6661D1E5D733F00941CFE /* floorplan.png */; };
+		84B666201E5D78F700941CFE /* playicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B6661F1E5D78F700941CFE /* playicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +32,20 @@
 		842627CE1E5D307C00FBD47E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		842627D11E5D307C00FBD47E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		842627D31E5D307C00FBD47E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		842627D91E5D3C3300FBD47E /* ProjectDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectDetailViewController.swift; sourceTree = "<group>"; };
+		842627DA1E5D3C3300FBD47E /* ProjectDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProjectDetailViewController.xib; sourceTree = "<group>"; };
+		842627E41E5D3D3F00FBD47E /* DescriptionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DescriptionTableViewCell.xib; sourceTree = "<group>"; };
+		842627F31E5D55B100FBD47E /* sign-check-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sign-check-icon.png"; sourceTree = "<group>"; };
+		84B6660F1E5D5FB100941CFE /* propertyCover.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = propertyCover.jpg; sourceTree = "<group>"; };
+		84B666111E5D644400941CFE /* DescriptionTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DescriptionTableViewCell.swift; sourceTree = "<group>"; };
+		84B666171E5D6CA200941CFE /* ImagesTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesTableViewCell.swift; sourceTree = "<group>"; };
+		84B666181E5D6CA200941CFE /* ImagesTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImagesTableViewCell.xib; sourceTree = "<group>"; };
+		84B6661B1E5D6CCE00941CFE /* mapview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapview.png; sourceTree = "<group>"; };
+		84B6661D1E5D733F00941CFE /* floorplan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floorplan.png; sourceTree = "<group>"; };
+		84B6661F1E5D78F700941CFE /* playicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playicon.png; sourceTree = "<group>"; };
+		85BB6EBFD75D04F211644073 /* Pods-bookEasy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookEasy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bookEasy/Pods-bookEasy.debug.xcconfig"; sourceTree = "<group>"; };
+		901553484F02630F277F3EF5 /* Pods-bookEasy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookEasy.release.xcconfig"; path = "Pods/Target Support Files/Pods-bookEasy/Pods-bookEasy.release.xcconfig"; sourceTree = "<group>"; };
+		9242BCC385BCDCA280E41785 /* Pods_bookEasy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bookEasy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F2066BF3B5AFCA361507711 /* Pods_bookEasy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03C6D44750FB006B0243DA46 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9242BCC385BCDCA280E41785 /* Pods_bookEasy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6436A8A3C4E27E58721F73E9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85BB6EBFD75D04F211644073 /* Pods-bookEasy.debug.xcconfig */,
+				901553484F02630F277F3EF5 /* Pods-bookEasy.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		842627BB1E5D307C00FBD47E = {
 			isa = PBXGroup;
 			children = (
 				842627C61E5D307C00FBD47E /* bookEasy */,
 				842627C51E5D307C00FBD47E /* Products */,
+				6436A8A3C4E27E58721F73E9 /* Pods */,
+				03C6D44750FB006B0243DA46 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,13 +98,32 @@
 		842627C61E5D307C00FBD47E /* bookEasy */ = {
 			isa = PBXGroup;
 			children = (
+				842627E11E5D3CAE00FBD47E /* ProjectDetail */,
 				842627C71E5D307C00FBD47E /* AppDelegate.swift */,
 				842627C91E5D307C00FBD47E /* ViewController.swift */,
+				842627F31E5D55B100FBD47E /* sign-check-icon.png */,
 				842627CE1E5D307C00FBD47E /* Assets.xcassets */,
 				842627D01E5D307C00FBD47E /* LaunchScreen.storyboard */,
 				842627D31E5D307C00FBD47E /* Info.plist */,
+				84B6660F1E5D5FB100941CFE /* propertyCover.jpg */,
+				84B6661B1E5D6CCE00941CFE /* mapview.png */,
+				84B6661D1E5D733F00941CFE /* floorplan.png */,
+				84B6661F1E5D78F700941CFE /* playicon.png */,
 			);
 			path = bookEasy;
+			sourceTree = "<group>";
+		};
+		842627E11E5D3CAE00FBD47E /* ProjectDetail */ = {
+			isa = PBXGroup;
+			children = (
+				842627D91E5D3C3300FBD47E /* ProjectDetailViewController.swift */,
+				842627DA1E5D3C3300FBD47E /* ProjectDetailViewController.xib */,
+				84B666111E5D644400941CFE /* DescriptionTableViewCell.swift */,
+				842627E41E5D3D3F00FBD47E /* DescriptionTableViewCell.xib */,
+				84B666171E5D6CA200941CFE /* ImagesTableViewCell.swift */,
+				84B666181E5D6CA200941CFE /* ImagesTableViewCell.xib */,
+			);
+			name = ProjectDetail;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -68,9 +133,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 842627D61E5D307C00FBD47E /* Build configuration list for PBXNativeTarget "bookEasy" */;
 			buildPhases = (
+				E061805F4EA706163F3EF76B /* [CP] Check Pods Manifest.lock */,
 				842627C01E5D307C00FBD47E /* Sources */,
 				842627C11E5D307C00FBD47E /* Frameworks */,
 				842627C21E5D307C00FBD47E /* Resources */,
+				0036224E9C894AC10F582732 /* [CP] Embed Pods Frameworks */,
+				8F56AF4BB7E1FC1162DE303F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -121,6 +189,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B6661A1E5D6CA200941CFE /* ImagesTableViewCell.xib in Resources */,
+				84B666101E5D5FB100941CFE /* propertyCover.jpg in Resources */,
+				84B6661C1E5D6CCE00941CFE /* mapview.png in Resources */,
+				842627DC1E5D3C3300FBD47E /* ProjectDetailViewController.xib in Resources */,
+				842627E61E5D3D3F00FBD47E /* DescriptionTableViewCell.xib in Resources */,
+				842627F41E5D55B100FBD47E /* sign-check-icon.png in Resources */,
+				84B6661E1E5D733F00941CFE /* floorplan.png in Resources */,
+				84B666201E5D78F700941CFE /* playicon.png in Resources */,
 				842627D21E5D307C00FBD47E /* LaunchScreen.storyboard in Resources */,
 				842627CF1E5D307C00FBD47E /* Assets.xcassets in Resources */,
 			);
@@ -128,12 +204,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0036224E9C894AC10F582732 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bookEasy/Pods-bookEasy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8F56AF4BB7E1FC1162DE303F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-bookEasy/Pods-bookEasy-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E061805F4EA706163F3EF76B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		842627C01E5D307C00FBD47E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				842627CA1E5D307C00FBD47E /* ViewController.swift in Sources */,
+				84B666121E5D644400941CFE /* DescriptionTableViewCell.swift in Sources */,
+				842627DB1E5D3C3300FBD47E /* ProjectDetailViewController.swift in Sources */,
+				84B666191E5D6CA200941CFE /* ImagesTableViewCell.swift in Sources */,
 				842627C81E5D307C00FBD47E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -245,10 +372,12 @@
 		};
 		842627D71E5D307C00FBD47E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85BB6EBFD75D04F211644073 /* Pods-bookEasy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7GRRBTEJPN;
 				INFOPLIST_FILE = bookEasy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bookEasy.bookEasy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -258,10 +387,12 @@
 		};
 		842627D81E5D307C00FBD47E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 901553484F02630F277F3EF5 /* Pods-bookEasy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7GRRBTEJPN;
 				INFOPLIST_FILE = bookEasy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bookEasy.bookEasy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,6 +419,7 @@
 				842627D81E5D307C00FBD47E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
