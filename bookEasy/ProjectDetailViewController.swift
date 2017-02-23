@@ -20,7 +20,8 @@ class ProjectDetailViewController: UIViewController, UITableViewDelegate, UITabl
         // Do any additional setup after loading the view.
         tableView.register(UINib(nibName: "ImagesTableViewCell", bundle: nil), forCellReuseIdentifier: "imagesCell")
         tableView.register(UINib(nibName: "DescriptionTableViewCell", bundle: nil), forCellReuseIdentifier: "descriptionCell")
-        
+        tableView.register(UINib(nibName: "FloorPlanTableViewCell", bundle: nil), forCellReuseIdentifier: "floorCell")
+
         // Set delegate and datasource
         self.tableView.delegate = self
         self.tableView.dataSource = self
@@ -42,24 +43,29 @@ class ProjectDetailViewController: UIViewController, UITableViewDelegate, UITabl
     }
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 3//self.items.count;
+        return 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-        let cell = tableView.dequeueReusableCell(withIdentifier: "descriptionCell", for: indexPath) as! DescriptionTableViewCell
-        let imagesCell = tableView.dequeueReusableCell(withIdentifier: "imagesCell", for: indexPath) as! ImagesTableViewCell
-        
-        if indexPath.row == 1 {
-            return cell
-        } else {
-            if indexPath.row == 0 {
-                imagesCell.imageView?.image = #imageLiteral(resourceName: "mapview.png")
-            } else {
-                imagesCell.imageView?.image = #imageLiteral(resourceName: "floorplan.png")
-            }
-            return imagesCell
+        let result: UITableViewCell
+
+        let row = indexPath.section
+        switch row {
+        case 0:
+            let descCell = tableView.dequeueReusableCell(withIdentifier: "descriptionCell", for: indexPath) as! DescriptionTableViewCell
+            result = descCell
+            break
+        case 1:
+            let floorCell = tableView.dequeueReusableCell(withIdentifier: "floorCell", for: indexPath) as! FloorPlanTableViewCell
+            result = floorCell
+            break
+        default:
+            let imagesCell = tableView.dequeueReusableCell(withIdentifier: "imagesCell", for: indexPath) as! ImagesTableViewCell
+            result = imagesCell
+            break
         }
+        
+        return result;
     }
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
@@ -70,18 +76,34 @@ class ProjectDetailViewController: UIViewController, UITableViewDelegate, UITabl
     
     func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
     {
-        if indexPath.section == 0 {
-            return 180;//Choose your custom row height
-        } else {
-            return 180;//Choose your custom row height
-        }
+        return 180;//Choose your custom row height
         
     }
     
     func numberOfSections(in tableView: UITableView) -> Int {
-        return 1
+        return 3
     }
     
-
+    // Set the spacing between sections
+    func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        return 8
+    }
+    
+    // Make the background color show through
+    func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = UIView()
+        headerView.backgroundColor = UIColor.clear
+        return headerView
+    }
+    
+    @IBAction func bookIt(_ sender: Any) {
+        let book = UnitSelectionViewController()
+        let transition = CATransition()
+        transition.duration = 0.5
+        transition.type = kCATransitionPush
+        transition.subtype = kCATransitionFromRight
+        view.window!.layer.add(transition, forKey: kCATransition)
+        self.present(book, animated: false, completion: nil)
+    }
 
 }

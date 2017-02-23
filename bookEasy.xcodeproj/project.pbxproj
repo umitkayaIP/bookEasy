@@ -23,6 +23,26 @@
 		84B6661C1E5D6CCE00941CFE /* mapview.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B6661B1E5D6CCE00941CFE /* mapview.png */; };
 		84B6661E1E5D733F00941CFE /* floorplan.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B6661D1E5D733F00941CFE /* floorplan.png */; };
 		84B666201E5D78F700941CFE /* playicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B6661F1E5D78F700941CFE /* playicon.png */; };
+		84B666231E5D81F000941CFE /* FloorPlanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B666211E5D81F000941CFE /* FloorPlanTableViewCell.swift */; };
+		84B666241E5D81F000941CFE /* FloorPlanTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B666221E5D81F000941CFE /* FloorPlanTableViewCell.xib */; };
+		84B666281E5D85F600941CFE /* UnitSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B666261E5D85F600941CFE /* UnitSelectionViewController.swift */; };
+		84B666291E5D85F600941CFE /* UnitSelectionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B666271E5D85F600941CFE /* UnitSelectionViewController.xib */; };
+		84B6662C1E5D8B7F00941CFE /* UnitCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6662A1E5D8B7F00941CFE /* UnitCollectionViewCell.swift */; };
+		84B6662D1E5D8B7F00941CFE /* UnitCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B6662B1E5D8B7F00941CFE /* UnitCollectionViewCell.xib */; };
+		84B6662F1E5D8C0700941CFE /* houseicon.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B6662E1E5D8C0700941CFE /* houseicon.png */; };
+		84B666371E5DCD9300941CFE /* mahsing.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B666311E5DCD9300941CFE /* mahsing.png */; };
+		84B666381E5DCD9300941CFE /* project1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84B666321E5DCD9300941CFE /* project1.jpeg */; };
+		84B666391E5DCD9300941CFE /* project2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B666331E5DCD9300941CFE /* project2.jpg */; };
+		84B6663A1E5DCD9300941CFE /* project3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 84B666341E5DCD9300941CFE /* project3.jpg */; };
+		84B6663B1E5DCD9300941CFE /* SmeDarby.gif in Resources */ = {isa = PBXBuildFile; fileRef = 84B666351E5DCD9300941CFE /* SmeDarby.gif */; };
+		84B6663C1E5DCD9300941CFE /* SP-Setia.png in Resources */ = {isa = PBXBuildFile; fileRef = 84B666361E5DCD9300941CFE /* SP-Setia.png */; };
+		84B666451E5DCDCB00941CFE /* DeveloperDevelopmentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B6663E1E5DCDCB00941CFE /* DeveloperDevelopmentTableViewCell.swift */; };
+		84B666461E5DCDCB00941CFE /* DeveloperDevelopmentTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B6663F1E5DCDCB00941CFE /* DeveloperDevelopmentTableViewCell.xib */; };
+		84B666471E5DCDCB00941CFE /* DeveloperDevelopmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B666401E5DCDCB00941CFE /* DeveloperDevelopmentViewController.swift */; };
+		84B666481E5DCDCB00941CFE /* DeveloperViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B666411E5DCDCB00941CFE /* DeveloperViewController.swift */; };
+		84B666491E5DCDCB00941CFE /* DeveloperViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B666421E5DCDCB00941CFE /* DeveloperViewController.xib */; };
+		84B6664A1E5DCDCB00941CFE /* DevelopmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B666431E5DCDCB00941CFE /* DevelopmentViewController.swift */; };
+		84B6664B1E5DCDCB00941CFE /* DevelopmentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B666441E5DCDCB00941CFE /* DevelopmentViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +63,26 @@
 		84B6661B1E5D6CCE00941CFE /* mapview.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mapview.png; sourceTree = "<group>"; };
 		84B6661D1E5D733F00941CFE /* floorplan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = floorplan.png; sourceTree = "<group>"; };
 		84B6661F1E5D78F700941CFE /* playicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = playicon.png; sourceTree = "<group>"; };
+		84B666211E5D81F000941CFE /* FloorPlanTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FloorPlanTableViewCell.swift; sourceTree = "<group>"; };
+		84B666221E5D81F000941CFE /* FloorPlanTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FloorPlanTableViewCell.xib; sourceTree = "<group>"; };
+		84B666261E5D85F600941CFE /* UnitSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitSelectionViewController.swift; sourceTree = "<group>"; };
+		84B666271E5D85F600941CFE /* UnitSelectionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnitSelectionViewController.xib; sourceTree = "<group>"; };
+		84B6662A1E5D8B7F00941CFE /* UnitCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnitCollectionViewCell.swift; sourceTree = "<group>"; };
+		84B6662B1E5D8B7F00941CFE /* UnitCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UnitCollectionViewCell.xib; sourceTree = "<group>"; };
+		84B6662E1E5D8C0700941CFE /* houseicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = houseicon.png; sourceTree = "<group>"; };
+		84B666311E5DCD9300941CFE /* mahsing.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mahsing.png; sourceTree = "<group>"; };
+		84B666321E5DCD9300941CFE /* project1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = project1.jpeg; sourceTree = "<group>"; };
+		84B666331E5DCD9300941CFE /* project2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = project2.jpg; sourceTree = "<group>"; };
+		84B666341E5DCD9300941CFE /* project3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = project3.jpg; sourceTree = "<group>"; };
+		84B666351E5DCD9300941CFE /* SmeDarby.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = SmeDarby.gif; sourceTree = "<group>"; };
+		84B666361E5DCD9300941CFE /* SP-Setia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SP-Setia.png"; sourceTree = "<group>"; };
+		84B6663E1E5DCDCB00941CFE /* DeveloperDevelopmentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeveloperDevelopmentTableViewCell.swift; sourceTree = "<group>"; };
+		84B6663F1E5DCDCB00941CFE /* DeveloperDevelopmentTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeveloperDevelopmentTableViewCell.xib; sourceTree = "<group>"; };
+		84B666401E5DCDCB00941CFE /* DeveloperDevelopmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeveloperDevelopmentViewController.swift; sourceTree = "<group>"; };
+		84B666411E5DCDCB00941CFE /* DeveloperViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeveloperViewController.swift; sourceTree = "<group>"; };
+		84B666421E5DCDCB00941CFE /* DeveloperViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeveloperViewController.xib; sourceTree = "<group>"; };
+		84B666431E5DCDCB00941CFE /* DevelopmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevelopmentViewController.swift; sourceTree = "<group>"; };
+		84B666441E5DCDCB00941CFE /* DevelopmentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DevelopmentViewController.xib; sourceTree = "<group>"; };
 		85BB6EBFD75D04F211644073 /* Pods-bookEasy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookEasy.debug.xcconfig"; path = "Pods/Target Support Files/Pods-bookEasy/Pods-bookEasy.debug.xcconfig"; sourceTree = "<group>"; };
 		901553484F02630F277F3EF5 /* Pods-bookEasy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-bookEasy.release.xcconfig"; path = "Pods/Target Support Files/Pods-bookEasy/Pods-bookEasy.release.xcconfig"; sourceTree = "<group>"; };
 		9242BCC385BCDCA280E41785 /* Pods_bookEasy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_bookEasy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,17 +138,16 @@
 		842627C61E5D307C00FBD47E /* bookEasy */ = {
 			isa = PBXGroup;
 			children = (
+				84B666301E5DCD2A00941CFE /* images */,
+				84B6663D1E5DCDA700941CFE /* Developer&Development */,
 				842627E11E5D3CAE00FBD47E /* ProjectDetail */,
+				84B666251E5D85C000941CFE /* UnitSelection */,
 				842627C71E5D307C00FBD47E /* AppDelegate.swift */,
 				842627C91E5D307C00FBD47E /* ViewController.swift */,
 				842627F31E5D55B100FBD47E /* sign-check-icon.png */,
 				842627CE1E5D307C00FBD47E /* Assets.xcassets */,
 				842627D01E5D307C00FBD47E /* LaunchScreen.storyboard */,
 				842627D31E5D307C00FBD47E /* Info.plist */,
-				84B6660F1E5D5FB100941CFE /* propertyCover.jpg */,
-				84B6661B1E5D6CCE00941CFE /* mapview.png */,
-				84B6661D1E5D733F00941CFE /* floorplan.png */,
-				84B6661F1E5D78F700941CFE /* playicon.png */,
 			);
 			path = bookEasy;
 			sourceTree = "<group>";
@@ -122,8 +161,53 @@
 				842627E41E5D3D3F00FBD47E /* DescriptionTableViewCell.xib */,
 				84B666171E5D6CA200941CFE /* ImagesTableViewCell.swift */,
 				84B666181E5D6CA200941CFE /* ImagesTableViewCell.xib */,
+				84B666211E5D81F000941CFE /* FloorPlanTableViewCell.swift */,
+				84B666221E5D81F000941CFE /* FloorPlanTableViewCell.xib */,
 			);
 			name = ProjectDetail;
+			sourceTree = "<group>";
+		};
+		84B666251E5D85C000941CFE /* UnitSelection */ = {
+			isa = PBXGroup;
+			children = (
+				84B666261E5D85F600941CFE /* UnitSelectionViewController.swift */,
+				84B666271E5D85F600941CFE /* UnitSelectionViewController.xib */,
+				84B6662A1E5D8B7F00941CFE /* UnitCollectionViewCell.swift */,
+				84B6662B1E5D8B7F00941CFE /* UnitCollectionViewCell.xib */,
+			);
+			name = UnitSelection;
+			sourceTree = "<group>";
+		};
+		84B666301E5DCD2A00941CFE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84B6660F1E5D5FB100941CFE /* propertyCover.jpg */,
+				84B6661B1E5D6CCE00941CFE /* mapview.png */,
+				84B6661D1E5D733F00941CFE /* floorplan.png */,
+				84B6661F1E5D78F700941CFE /* playicon.png */,
+				84B6662E1E5D8C0700941CFE /* houseicon.png */,
+				84B666311E5DCD9300941CFE /* mahsing.png */,
+				84B666321E5DCD9300941CFE /* project1.jpeg */,
+				84B666331E5DCD9300941CFE /* project2.jpg */,
+				84B666341E5DCD9300941CFE /* project3.jpg */,
+				84B666351E5DCD9300941CFE /* SmeDarby.gif */,
+				84B666361E5DCD9300941CFE /* SP-Setia.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		84B6663D1E5DCDA700941CFE /* Developer&Development */ = {
+			isa = PBXGroup;
+			children = (
+				84B6663E1E5DCDCB00941CFE /* DeveloperDevelopmentTableViewCell.swift */,
+				84B6663F1E5DCDCB00941CFE /* DeveloperDevelopmentTableViewCell.xib */,
+				84B666401E5DCDCB00941CFE /* DeveloperDevelopmentViewController.swift */,
+				84B666411E5DCDCB00941CFE /* DeveloperViewController.swift */,
+				84B666421E5DCDCB00941CFE /* DeveloperViewController.xib */,
+				84B666431E5DCDCB00941CFE /* DevelopmentViewController.swift */,
+				84B666441E5DCDCB00941CFE /* DevelopmentViewController.xib */,
+			);
+			name = "Developer&Development";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -191,14 +275,27 @@
 			files = (
 				84B6661A1E5D6CA200941CFE /* ImagesTableViewCell.xib in Resources */,
 				84B666101E5D5FB100941CFE /* propertyCover.jpg in Resources */,
+				84B666241E5D81F000941CFE /* FloorPlanTableViewCell.xib in Resources */,
+				84B6663B1E5DCD9300941CFE /* SmeDarby.gif in Resources */,
+				84B6662F1E5D8C0700941CFE /* houseicon.png in Resources */,
 				84B6661C1E5D6CCE00941CFE /* mapview.png in Resources */,
 				842627DC1E5D3C3300FBD47E /* ProjectDetailViewController.xib in Resources */,
+				84B666371E5DCD9300941CFE /* mahsing.png in Resources */,
+				84B666291E5D85F600941CFE /* UnitSelectionViewController.xib in Resources */,
 				842627E61E5D3D3F00FBD47E /* DescriptionTableViewCell.xib in Resources */,
+				84B666381E5DCD9300941CFE /* project1.jpeg in Resources */,
+				84B666391E5DCD9300941CFE /* project2.jpg in Resources */,
 				842627F41E5D55B100FBD47E /* sign-check-icon.png in Resources */,
+				84B666461E5DCDCB00941CFE /* DeveloperDevelopmentTableViewCell.xib in Resources */,
 				84B6661E1E5D733F00941CFE /* floorplan.png in Resources */,
+				84B666491E5DCDCB00941CFE /* DeveloperViewController.xib in Resources */,
 				84B666201E5D78F700941CFE /* playicon.png in Resources */,
 				842627D21E5D307C00FBD47E /* LaunchScreen.storyboard in Resources */,
+				84B6662D1E5D8B7F00941CFE /* UnitCollectionViewCell.xib in Resources */,
+				84B6664B1E5DCDCB00941CFE /* DevelopmentViewController.xib in Resources */,
+				84B6663C1E5DCD9300941CFE /* SP-Setia.png in Resources */,
 				842627CF1E5D307C00FBD47E /* Assets.xcassets in Resources */,
+				84B6663A1E5DCD9300941CFE /* project3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,10 +354,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B6664A1E5DCDCB00941CFE /* DevelopmentViewController.swift in Sources */,
+				84B666451E5DCDCB00941CFE /* DeveloperDevelopmentTableViewCell.swift in Sources */,
 				842627CA1E5D307C00FBD47E /* ViewController.swift in Sources */,
+				84B666481E5DCDCB00941CFE /* DeveloperViewController.swift in Sources */,
 				84B666121E5D644400941CFE /* DescriptionTableViewCell.swift in Sources */,
+				84B666281E5D85F600941CFE /* UnitSelectionViewController.swift in Sources */,
 				842627DB1E5D3C3300FBD47E /* ProjectDetailViewController.swift in Sources */,
+				84B666471E5DCDCB00941CFE /* DeveloperDevelopmentViewController.swift in Sources */,
+				84B666231E5D81F000941CFE /* FloorPlanTableViewCell.swift in Sources */,
 				84B666191E5D6CA200941CFE /* ImagesTableViewCell.swift in Sources */,
+				84B6662C1E5D8B7F00941CFE /* UnitCollectionViewCell.swift in Sources */,
 				842627C81E5D307C00FBD47E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

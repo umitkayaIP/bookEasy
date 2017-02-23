@@ -15,14 +15,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Initialize the window
+        // Override point for customization after application launch.
         window = UIWindow.init(frame: UIScreen.main.bounds)
         
         // Set Background Color of window
         window?.backgroundColor = UIColor.white
         
         // Allocate memory for an instance of the 'MainViewController' class
-        let mainViewController = ProjectDetailViewController()
+        let mainViewController = DeveloperViewController()
         
         // Set the root view controller of the app's window
         window!.rootViewController = mainViewController
